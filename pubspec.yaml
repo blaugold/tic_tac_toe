@@ -1,0 +1,22 @@
+name: tic_tac_toe
+description: The game Tic Tac Toe implemented in Flutter.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.13.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  glopos: ^0.1.1
+  provider: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.11.1
+
+flutter:
+  uses-material-design: true
